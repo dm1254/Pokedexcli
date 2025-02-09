@@ -14,7 +14,4 @@ func main(){
 	startRepl(cfg)	
 }
 
-<<<<<<< HEAD
-=======
 
->>>>>>> a9024b1 (Update main.go)
