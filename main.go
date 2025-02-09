@@ -15,9 +15,3 @@ func main(){
 	startRepl(cfg)	
 }
 
-func cleanInput(text string) []string{	
-	lowerCase := strings.ToLower(text)
-	reformattedString := strings.TrimSpace(lowerCase)
-	splitTextToSlice := strings.Fields(reformattedString)
-	return splitTextToSlice
-}
